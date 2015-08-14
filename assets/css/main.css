@@ -1,0 +1,17 @@
+
+/*----------------------------------------------------------------------------*/
+/* import skeletons from 1-tools*/
+@import "1-tools/_normalize.css";
+@import "1-tools/_skeleton.css";
+@import "1-tools/_slick.css";
+
+/*----------------------------------------------------------------------------*/
+/* import of CSS style modules */
+@import "3-modules/_smartphone_view.css";
+@import "../1-tools/_thumbnail-grid-component.css"
+
+
+
+span {
+  text-decoration: line-through;
+}

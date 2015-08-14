@@ -1,0 +1,159 @@
+/*----------------------------------------------------------------------------*/
+/* styles for phone viewport */
+/*----------------------------------------------------------------------------*/
+
+@media (max-width: 414px) {
+
+  section {
+    width: 100%;
+    height: 640px;
+  }
+
+  nav{
+    height: 40px;
+    background-color: red;
+  }
+
+  button {
+    position: absolute;
+    z-index: 1;
+  }
+
+  /*--------------------------------------------------------------------------*/
+  /* navigation section styles */
+  .nav-wrap {
+    position: relative;
+    display: flex;
+    display: -webkit-flex;
+    height: 40px;
+  }
+
+  .nav-header {
+    position: relative;
+    text-align: center;
+    background-color: green;
+    width: 100%;
+    height: 40px;
+  }
+
+  /*--------------------------------------------------------------------------*/
+  /* intro section styles */
+  .intro-wrap {
+    background-color: rgba(12,7,37, 1);
+    height: 640px;
+    display: flex;
+    display: -webkit-flex;
+    justify-content: center;
+    webkit-justify-content: center;
+    flex-direction: row;
+  }
+
+  .intro-hero {
+    text-align: center;
+    margin-top: 300px;
+    color: white;
+  }
+
+  /*--------------------------------------------------------------------------*/
+  /* service section styles */
+  .section-header {
+    width: auto;
+    background-color: rgba(11,16,46,1.0);
+    text-align: center;
+    margin-top: 0;
+    margin-bottom: 0;
+    color: white;
+    height: 40px;
+  }
+
+  .page-title {
+    margin: 1px;
+  }
+
+  .service-element-wrap {
+    width: auto;
+    height: 640px;
+    color: white;
+  }
+
+  .service-element * {
+    text-align: center;
+    position: relative;
+    width: auto;
+    margin-bottom: 5px;
+  }
+
+  .overlay:before {
+    position: absolute;
+    content: " ";
+    top:0;
+    left:0;
+    width: 100%;
+    height: 640px;
+    display: block;
+    z-index: 0;
+    background-color: rgba(12,7,37,0.15);
+  }
+
+  .design {
+    background-image: url(../../img/logo_design.PNG);
+    background-clip: border-box;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+  }
+
+  .print {
+    background-image: url(../../img/print.png);
+    background-clip: border-box;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+  }
+
+  .ui {
+    background-image: url(../../img/ui.png);
+    background-clip: border-box;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+  }
+
+  .code {
+    background-image: url(../../img/code.png);
+    background-clip: border-box;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+  }
+
+  .motion {
+    background-image: url(../../img/3d.png);
+    background-clip: border-box;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+  }
+
+  .image-heading {
+    position: relative;
+    margin-top: 70px;
+    text-transform: uppercase;
+    margin-top: 100px;
+    z-index: 1;
+  }
+
+  .heading-subline {
+    z-index: 1;
+  }
+
+  /*--------------------------------------------------------------------------*/
+  /* portfolio section styles */
+  
+  /*--------------------------------------------------------------------------*/
+  /* contact section styles */
+
+
+
+
+}
