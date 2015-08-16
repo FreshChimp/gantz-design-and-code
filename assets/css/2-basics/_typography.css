@@ -1,5 +1,11 @@
 
 @font-face {
-  font-family: sans-serif;
-  text-transform: uppercase;
+  font-family: 'brandon_regular';
+  src: url('../../fonts/brandon_re.ttf');
+  src: local('Brandon Grotesque'), local('Brandon'), url('../../fonts/brandon_re.ttf'), format('truetype');
+}
+
+@font-face {
+  font-family: 'brandon_light';
+  src: url('../../fonts/brandongrotesque-light.ttf');
 }

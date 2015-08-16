@@ -8,10 +8,9 @@
 /*----------------------------------------------------------------------------*/
 /* import of CSS style modules */
 @import "3-modules/_smartphone_view.css";
-@import "../1-tools/_thumbnail-grid-component.css"
+@import "../1-tools/_thumbnail-grid-component.css";
 
 
+body {
 
-span {
-  text-decoration: line-through;
 }
